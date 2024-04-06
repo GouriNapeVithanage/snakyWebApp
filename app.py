@@ -1,14 +1,21 @@
 import numpy as np
 import os
+import cv2
 from keras.models import load_model
 from keras.preprocessing import image
 from flask import Flask, request, render_template
-from keras.applications.resnet_v2 import preprocess_input  
+from keras.applications.resnet_v2 import preprocess_input
+from tensorflow.keras.preprocessing import image
+from PIL import Image
 
 app = Flask(__name__)
 
 classification_model = load_model("models/ResNet152V2.h5", compile=False)
 identification_model = load_model("models/SnakeDetectionModel_ResNet50.h5", compile=False)
+
+# load model
+identification_model = load_model('/Users/new/Downloads/SnakeDetectionModel_ResNet50.h5')
+classification_model = load_model('/Users/new/Downloads/ResNet152V2.h5', compile = False)
 
 @app.route("/")
 def index():

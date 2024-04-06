@@ -1,0 +1,243 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+  
+- synonym: common_rattle_snake
+  examples: |
+    - common rattle snake
+    - common rat snake
+    - crotalus adamanteus
+    - eastern diamondback rattlesnake
+    - eastern diamondback
+
+- intent: common_rattle_snake_information
+  examples: |
+    - common_rattle_snake information
+    - can i know about common_rattle_snake
+    - describe about common_rattle_snake
+
+- intent: common_rattle_snake_location
+  examples: |
+    - Where are common_rattle_snake found
+    - common_rattle_snake locations
+    - where can be common_rattle_snake found
+
+- intent: common_rattle_snake_appearance
+  examples: |
+    - what is the appearance of a common_rattle_snake
+    - common_rattle_snake appearance
+    - how does a common_rattle_snake look like
+
+- intent: common_rattle_snake_bite_treatment
+  examples: | 
+    - How to treat a common_rattle_snake bite
+    - what to do if i get a common_rattle_snake bite
+    - what to do if i get bitten by a common_rattle_snake bite
+    - i got bit by a common_rattle_snake bite
+    
+
+- intent: common_rattle_snake_bite_symptoms
+  examples: |
+    - How can I recognize a common_rattle_snake bite
+    - What are the typical symptoms of a common_rattle_snake bite
+    - What does a common_rattle_snake bite look like
+    - What are the signs of a common_rattle_snake bite
+    - What symptoms should I expect after being bitten by a common_rattle_snake
+    - common_rattle_snake bite
+    - common_rattle_snake symptoms
+    - how do i know if i got bitten by common_rattle_snake
+
+- synonym: russels_viper_snake
+  examples: |
+    - russel's viper
+    - russels viper
+    - Daboia russelii
+    - russels viper snake
+    - russel's viper snake
+
+- intent: russels_viper_information
+  examples: |
+    - russels_viper_snake
+    - russels_viper_snake information
+    - can i know about russels_viper_snake
+    - describe about russels_viper_snake
+
+- intent: russels_viper_location
+  examples: |
+    - Where are russels_viper_snake found
+    - russels_viper_snake locations
+    - where can be russels_viper_snake found
+
+- intent: russels_viper_appearance
+  examples: |
+    - what is the appearance of a russels_viper_snake
+    - russels_viper_snake appearance
+    - how does a russels_viper_snake look like
+
+- intent: russels_viper_snake_bite_treatment
+  examples: | 
+    - How to treat a russels_viper_snake
+    - russels_viper_snake_bite treatment
+    - what to do if i get a russels_viper_snake
+    - what to do if i get bitten by a russels_viper_snake
+    - i got bit by a russels_viper_snake
+
+- intent: russels_viper_snake_bite_symptoms
+  examples: |
+    - How can I recognize a russels_viper_snake bite
+    - What are the typical symptoms of a russels_viper_snake bite
+    - What does a russels_viper_snake bite look like
+    - What are the signs of a russels_viper_snake bite
+    - What symptoms should I expect after being bitten by a russels_viper_snake
+    - russels_viper_snake bite
+    - russels_viper_snake symptoms
+    - how do i know if i got bitten by russels_viper_snake
+
+
+- synonym: sri_lankan_green_pit_viper_snake
+  examples: |
+    - sri lankan green pit viper snake
+    - Trimeresurus trigonocephalus
+    - sri lankan green pit viper snake
+    - green pit viper 
+
+- intent: sri_lankan_green_pit_viper_information
+  examples: |
+    - sri_lankan_green_pit_viper
+    - sri_lankan_green_pit_viper information
+    - can i know about sri_lankan_green_pit_viper
+    - describe about sri_lankan_green_pit_viper
+    - sri_lankan_green_pit_viper
+    - sri_lankan_green_pit_viper information
+    - can i know about sri_lankan_green_pit_viper
+    - describe about sri_lankan_green_pit_viper
+
+- intent: sri_lankan_green_pit_viper_location
+  examples: |
+    - Where are sri_lankan_green_pit_viper_snake found
+    - sri lankan green pit viper location
+    - sri lankan greenpit viper locations
+    - where can be sri_lankan_green_pit_viper_snake found
+    - sri lankan green pit viper can be found in?
+    - sri_lankan_green_pit_viper_snake locations
+    - where can be sri_lankan_green_pit_viper_snake found
+
+
+- intent: sri_lankan_green_pit_viper_appearance
+  examples: |
+    - what is the appearance of a sri_lankan_green_pit_viper_snake
+    - green pit viper appearance
+    - sri lankan green pit viper appearance
+    - sri_lankan_green_pit_viper_snake appearance
+    - how does a sri_lankan_green_pit_viper_snake look like
+
+- intent: sri_lankan_green_pit_viper_snake_bite_symptoms
+  examples: |
+    - How can I recognize a sri_lankan_green_pit_viper_snake bite
+    - What are the typical symptoms of a sri_lankan_green_pit_viper_snake bite
+    - What does a sri_lankan_green_pit_viper_snake bite look like
+    - What are the signs of a sri_lankan_green_pit_viper_snake bite
+    - What symptoms should I expect after being bitten by a sri_lankan_green_pit_viper_snake
+    - sri_lankan_green_pit_viper_snake bite
+    - sri_lankan_green_pit_viper_snake symptoms
+    - how do i know if i got bitten by sri_lankan_green_pit_viper_snake
+
+- intent: sri_lankan_green_pit_viper_snake_bite_treatment
+  examples: | 
+    - How to treat a sri_lankan_green_pit_viper_snake bite
+    - sri lankan green pit viper treatment
+    - green pit viper treatment
+    - sri lankan green pit viper snake bite treatments
+    - green pit viper snake bite treatments
+    - what to do if i get a sri_lankan_green_pit_viper_snake bite
+    - what to do if i get bitten by a sri_lankan_green_pit_viper_snake bite
+    - i got bit by a sri_lankan_green_pit_viper_snake bite
+
+
+- synonym: forstens_cat_snake
+  examples: |
+    - forsten's cat snake
+    - forstens cat snake
+    - forsten cat
+    - boiga forsteni
+    - cat eyed snake
+
+- intent: forstens_cat_information
+  examples: |
+    - forsten's cat snake
+    - forsten's cat snake information
+    - can i know about forsten's cat snake
+    - describe about forsten's cat snake
+    - forstens_cat_snake
+    - forstens_cat_snake information
+    - can i know about forstens_cat_snake
+    - describe about forstens_cat_snake
+
+- intent: forstens_cat_location
+  examples: |
+    - Where are forstens_cat_snake found
+    - forstens_cat_snake locations
+    - where can be forstens_cat_snake found
+
+- intent: forstens_cat_appearance
+  examples: |
+    - what is the appearance of a forstens_cat_snake
+    - forstens_cat_snake appearance
+    - how does a forstens_cat_snake look like
+
+- intent: forstens_cat_snake_bite_treatment
+  examples: | 
+    - How to treat a forstens_cat_snake
+    - forstens_cat_snake bite treatment
+    - forstens_cat_snake bite treatments
+    - what to do if i get a forstens_cat_snake
+    - what to do if i get bitten by a forstens_cat_snake
+    - i got bit by a forstens_cat_snake
+
+- intent: forstens_cat_snake_bite_symptoms
+  examples: |
+    - How can I recognize a forstens_cat_snake bite
+    - What are the typical symptoms of a forstens_cat_snake bite
+    - What does a forstens_cat_snake bite look like
+    - What are the signs of a forstens_cat_snake bite
+    - What symptoms should I expect after being bitten by a forstens_cat_snake
+    - forstens_cat_snake bite
+    - forstens_cat_snake symptoms
+    - how do i know if i got bitten by forstens_cat_snake
+
+

@@ -1,0 +1,22 @@
+{
+  "common rattle snake": "common_rattle_snake",
+  "common_rattle_snake": "common_rattle_snake",
+  "common rat snake": "common_rattle_snake",
+  "crotalus adamanteus": "common_rattle_snake",
+  "eastern diamondback rattlesnake": "common_rattle_snake",
+  "eastern diamondback": "common_rattle_snake",
+  "russel's viper": "russels viper snake",
+  "russels viper snake": "russels viper snake",
+  "russels viper": "russels viper snake",
+  "daboia russelii": "russels viper snake",
+  "sri lankan green pit viper snake": "sri lankan green pit viper snake",
+  "trimeresurus trigonocephalus": "sri lankan green pit viper snake",
+  "green pit viper": "sri lankan green pit viper snake",
+  "forsten's cat snake": "forsten's cat snake",
+  "forstens cat snake": "forsten's cat snake",
+  "forsten cat": "forsten's cat snake",
+  "boiga forsteni": "forsten's cat snake",
+  "russels_viper": "russels_viper",
+  "sri_lankan green pit viper": "sri_lankan green pit viper",
+  "forstens_cat": "forstens_cat"
+}

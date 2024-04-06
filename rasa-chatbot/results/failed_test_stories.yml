@@ -1,0 +1,12 @@
+version: "3.1"
+stories:
+- story: sri lankan green pit viper snake (.\tests\test_stories.yml)
+  steps:
+  - intent: sri_lankan_green_pit_viper_appearance  # predicted: nlu_fallback: what is the appearance of a sri lankan green pit viper snake
+  - action: utter_sri_lankan_green_pit_viper_appearance
+  - intent: sri_lankan_green_pit_viper_location
+  - action: utter_sri_lankan_green_pit_viper_location
+  - intent: sri_lankan_green_pit_viper_snake_bite_symptoms
+  - action: utter_sri_lankan_green_pit_viper_snake_bite_symptoms
+  - intent: sri_lankan_green_pit_viper_snake_bite_treatment
+  - action: utter_sri_lankan_green_pit_viper_snake_bite_treatment

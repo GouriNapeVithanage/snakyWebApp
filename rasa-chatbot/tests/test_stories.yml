@@ -1,0 +1,109 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+
+- story: bot challenge
+  steps:
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot
+
+- story: common rattle snake
+  steps:
+  - user: |
+      can i know about common rat snake?
+    intent: common_rattle_snake_information
+  - action: utter_common_rattle_snake_information
+  - user: |
+      how does a common rat snake look like?
+    intent: common_rattle_snake_appearance
+  - action: utter_common_rattle_snake_appearance
+  - user: |
+      common rattle snake bite symptoms
+    intent: common_rattle_snake_bite_symptoms
+  - action: utter_common_rattle_snake_bite_symptoms
+  - user: |
+      how to treat a common rattle snake bite
+    intent: common_rattle_snake_bite_treatment
+  - action: utter_common_rattle_snake_bite_treatment
+
+  
+- story: russels viper snake
+  steps:
+    - user: |
+        how does a russels viper snake look like?
+      intent: russels_viper_appearance
+    - action: utter_russels_viper_appearance
+    - user: |
+        where can russels viper snakes can be found
+      intent: russels_viper_location
+    - action: utter_russels_viper_location
+    - user: |
+        russels viper snake bite symptoms
+      intent: russels_viper_snake_bite_symptoms
+    - action: utter_russels_viper_snake_bite_symptoms
+    - user: |
+        how to treat a russels viper snake bite
+      intent: russels_viper_snake_bite_treatment
+    - action: utter_russels_viper_snake_bite_treatment
+    
+- story: sri lankan green pit viper snake
+  steps:
+    - user: |
+        what is the appearance of a sri lankan green pit viper snake
+      intent: sri_lankan_green_pit_viper_appearance
+    - action: utter_sri_lankan_green_pit_viper_appearance
+    - user: |
+        where can sri lankan green pit viper snakes can be found
+      intent: sri_lankan_green_pit_viper_location
+    - action: utter_sri_lankan_green_pit_viper_location
+    - user: |
+        sri lankan green pit viper snake bite symptoms
+      intent: sri_lankan_green_pit_viper_snake_bite_symptoms
+    - action: utter_sri_lankan_green_pit_viper_snake_bite_symptoms
+    - user: |
+        how to treat a sri lankan green pit viper snake bite
+      intent: sri_lankan_green_pit_viper_snake_bite_treatment
+    - action: utter_sri_lankan_green_pit_viper_snake_bite_treatment
+
+- story: forstens cat snake
+  steps:
+    - user: |
+        how does a forstens cat snake look like?
+      intent: forstens_cat_appearance
+    - action: utter_forstens_cat_appearance
+    - user: |
+        where can forstens cat snakes can be found
+      intent: forstens_cat_location
+    - action: utter_forstens_cat_location
+    - user: |
+        forstens cat snake bite symptoms
+      intent: forstens_cat_snake_bite_symptoms
+    - action: utter_forstens_cat_snake_bite_symptoms
+    - user: |
+        how to treat a forstens cat snake bite
+      intent: forstens_cat_snake_bite_treatment
+    - action: utter_forstens_cat_snake_bite_treatment
+
+- story: user path 1
+  steps:
+    - user: |
+        hi
+      intent: greet
+    - action: utter_greet
+    - user: |
+        can i know about russels viper?
+      intent: russels_viper_information
+    - action: utter_russels_viper_information
+    - user: |
+        can i know about sri lankan green pit viper 
+      intent: sri_lankan_green_pit_viper_information
+    - action: utter_sri_lankan_green_pit_viper_information
+    - user: |
+        good bye
+      intent: goodbye
+    - action: utter_goodbye
+
+

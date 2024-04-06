@@ -1,0 +1,106 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - common_rattle_snake_information
+  - common_rattle_snake_location
+  - common_rattle_snake_appearance
+  - common_rattle_snake_bite_treatment
+  - common_rattle_snake_bite_symptoms
+  - russels_viper_information
+  - russels_viper_location
+  - russels_viper_appearance
+  - russels_viper_snake_bite_treatment
+  - russels_viper_snake_bite_symptoms
+  - sri_lankan_green_pit_viper_information
+  - sri_lankan_green_pit_viper_location
+  - sri_lankan_green_pit_viper_appearance
+  - sri_lankan_green_pit_viper_snake_bite_symptoms
+  - sri_lankan_green_pit_viper_snake_bite_treatment
+  - forstens_cat_information
+  - forstens_cat_location
+  - forstens_cat_appearance
+  - forstens_cat_snake_bite_treatment
+  - forstens_cat_snake_bite_symptoms
+  - nlu_fallback
+
+responses:
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_common_rattle_snake_information:
+  - text: "Medium to large, non-venomous snakes: Rat snakes are typically medium to large in size, ranging from 4 to 10 feet (1.2 to 3 meters) in length. They are non-venomous and kill their prey by constriction, meaning they wrap their bodies around their prey and squeeze it to death."
+
+  utter_common_rattle_snake_location:
+  - text: "Found worldwide: There are over 40 species of rat snakes found throughout the world, with two distinct groups: Old World rat snakes native to Europe and Asia, and New World rat snakes native to North and South America. The most common rat snake in North America is the corn snake."
+
+  utter_common_rattle_snake_appearance:
+  - text: "Rat snakes come in a wide variety of colors and patterns, including black, brown, yellow, gray, and even a combination of these colors. They may have blotches, stripes, or be a solid color."
+
+  utter_common_rattle_snake_bite_treatment:
+  - text: "If you encounter a common rat snake bite, follow these steps for first aid:\n1) Move Away from the Snake:\n- The first and most crucial step is to get away from the snake. Snakes may strike again if they feel threatened.\n\n2) Remove Jewelry and Tight Clothing\n- Before swelling starts, remove any jewelry, watches, or tight clothing from the affected area.\n\n3) Position Comfortably\n- Sit or lie down so that the bite is in a neutral and comfortable position.\n\n4) Clean the Bite Area\n- Clean the bite with soap and water to prevent infection.\n\n5) Cover with a Clean, Dry Bandage\n- Cover or wrap the bite loosely with a clean, dry bandage.\n\n6) Do Not Use a Tourniquet or Apply Ice\n- Avoid using a tourniquet or applying ice directly to the bite.\n\n7) Do Not Cut the Bite or Remove Venom\n- Do not attempt to cut the bite or remove the venom yourself.\n\n8) Avoid Caffeine and Alcohol\n- Do not consume caffeine or alcohol as it can increase the risk of bleeding\n\n9) Seek Immediate Medical Help\n- Call 911 or your local emergency number right away, especially if the bitten area changes color, swells, or is painful.\n- Remember the snake's color and shape if possible, as this information can help with treatment.\n\n10) Nonvenomous Snakebite Symptoms\n- Typical symptoms of a nonvenomous snakebite include pain, injury, and scratches at the bite site.\n\n11) Venomous Snakebite Symptoms:\n- After a venomous snakebite, there is usually serious pain and tenderness at the site.\n- This can worsen to swelling and bruising that may move up the arm or leg.\n- Other symptoms include nausea, labored breathing, weakness, and an odd taste in the mouth.\n- Some venomous snakes, like coral snakes, can affect the brain and nerves, causing symptoms such as upper eyelid drooping, tingling fingers or toes, difficulty swallowing, and muscle weakness.\n\n\nRemember, seek professional medical attention immediately for snakebites, especially if you suspect it's from a venomous snake."
+
+  utter_common_rattle_snake_bite_symptoms:
+  - text: "Rat snake bites rarely harm humans and often result in minor injuries. However, it'zs important to know the symptoms and signs that may accompany a rat snake bite to seek medical attention and promptly prevent potential complications.\n\nPain And Swelling\n- One of the most common symptoms of a rat snake bite is pain and swelling at the site of the bite. It occurs as the snake's teeth penetrate the skin and tissue, resulting in a puncture wound that can cause inflammation and discomfort. The pain can range from mild to severe, depending on the snake's size and the bite's depth.\n\nBleeding And Bruising\n- Rat snake bites may also cause bleeding and bruising, as the snake's teeth can damage blood vessels and tissue. Bleeding is usually minimal and can be stopped by applying pressure to the wound. Bruising may occur around the bite site and can last for several days.\n\nNausea And Vomiting\n- In some cases, rat snake bites may cause nausea and vomiting. It can occur due to the body's natural response to the venom, anxiety, or fear. If these symptoms persist or worsen, medical attention should be sought immediately.\n\nDizziness And Confusion\n- Rarely, rat snake bites may cause dizziness and confusion. It may be due to a drop in blood pressure or the effects of the venom on the nervous system. If these symptoms occur, seek medical attention right away is important.\n\nFatigue And Weakness\n- Fatigue and weakness may also be experienced following a rat snake bite. It can occur due to the body's natural response to the venom or from the stress of the situation. Rest and hydration are important for recovery.\n\nOther Possible Symptoms\n- Rat snake bite include headache, itching, and numbness or tingling around the bite site. If any of these symptoms persist or worsen, seek medical attention immediately."
+
+  utter_russels_viper_information:
+  - text: "The Russell`s viper (Daboia russelii) is a highly venomous snake found in South and Southeast Asia, including Sri Lanka, India, and China. It is one of the Big Four snakes in India, responsible for a significant number of snakebite deaths in the region."
+
+  utter_russels_viper_location:
+  - text: "Russell's vipers (Daboia russelii) are found in a wide range of locations across South and Southeast Asia."
+
+  utter_russels_viper_appearance:
+  - text: "- The Russell's viper is a medium-sized snake, typically growing to around 1.5 meters (5 feet) in length.\n- It has a broad, triangular head with small, pointed eyes and vertical pupils.\n- The body is brown or yellow with three rows of large, dark brown ovals down the back, each outlined in black and white.\n- The underside is white, cream, or yellow, sometimes with dark spots."
+
+  utter_russels_viper_snake_bite_treatment:
+  - text: "A Russell's Viper bite is a serious medical emergency due to the potency of its venom. Here are essential steps to take if you or someone else is bitten by a Russell's Viper:\n\n1) Seek Immediate Medical Attention:\n- Call for help or go to the nearest medical facility without delay.\n- Do not delay seeking professional help; early intervention is crucial.\n\n2) First Aid Measures:\n- Keep calm to slow down the spread of venom.\n- Immobilize the affected limb (if bitten on an arm or leg) to reduce venom circulation.\n- Remove any tight clothing or jewelry near the bite site.\n\n3) Do Not:\n- Cut or incise the wound (this does not help and can worsen the situation).\n- Suck the venom out (this is ineffective and dangerous).\n- Apply ice or a tourniquet (these can cause tissue damage).\n\n4) Positioning:\n- Keep the bitten limb at or slightly below heart level to slow venom spread.\n\n5) Symptom Management:\n- Control pain and swelling with over-the-counter pain relievers (if available).\n- Apply a cold compress to the bite area to reduce swelling.\n\n6) Hydration:\n- Encourage the victim to drink water to stay hydrated.\n\n7) Antivenom Administration:\n- Antivenom is the primary treatment for Russell's Viper bites.\n- Only administer antivenom in a medical facility under professional supervision.\n\n\nRemember that Russell's Viper bites can be fatal, and timely medical intervention is critical. Do not attempt home remedies; seek professional help immediately."
+
+  utter_russels_viper_snake_bite_symptoms:
+  - text: "A Russell's Viper bite is a highly dangerous medical emergency due to the potency of its venom. Here are the symptoms associated with a Russell's Viper snake bite:\n\n1) Localized Effects:\n- Severe Pain: Intense pain at the bite site.\n- Swelling: Swelling and bruising around the bitten area.\n- Blistering: Formation of blisters near the wound\n- Swollen Lymph Glands: Enlargement of nearby lymph nodes.\n\n2) Systemic Symptoms:\n- Tissue Damage and Necrosis: The venom causes severe tissue destruction.\n- Droopy Eyelids: Ptosis (drooping of the upper eyelids).\n- Mild Flaccid Paralysis: Weakness or paralysis of muscles.\n- Dizziness: Feeling lightheaded or dizzy.\n- Shock: Potentially life-threatening drop in blood pressure.\n- Seizures: Abnormal electrical activity in the brain.\n- Severe Bleeding Problems: Disseminated intravascular coagulation (DIC), leading to bleeding from various sites.\n\n3) Other Signs:\n- Metallic Taste: Some victims report a metallic taste in the mouth.\n\n\nRemember that Russell's Viper bites can be fatal, and immediate medical attention is crucial. Do not attempt home remedies; seek professional help promptly."
+
+  utter_sri_lankan_green_pit_viper_information:
+  - text: "The Sri Lankan Green Pit Viper (Craspedocephalus trigonocephalus), also known as the Ceylon pit viper, Sri Lankan green pit viper, or locally, pala polonga, is a venomous pit viper species endemic to Sri Lanka. "
+
+  utter_sri_lankan_green_pit_viper_location:
+  - text: "Found in wet zone rainforests, grasslands, as well as tea, cinnamon, and coffee plantations across Sri Lanka, except for very dry areas and high elevations."
+
+  utter_sri_lankan_green_pit_viper_appearance:
+  - text: "The Sri Lankan Green Pit Viper is known for its striking coloration that helps it camouflage in its leafy environment. Here's a breakdown of its appearance:\n- Base Color: Typically a vibrant green, though it can vary in shade.\n- Pattern: Adorned with black markings or patches along its body. Some individuals may lack these black markings entirely.\n- Head: Triangular shaped, distinct from the body by a noticeable neck. It has small, similar-sized head scales and heat-sensing pits on either side of its face, near the nostrils (these pits are a giveaway feature of pit vipers)\n- Sexual Dimorphism: Females are generally larger than males and tend to have a more prominent green coloration. Males may sometimes have a bluish tinge.\n- Snout: Short, rounded, and broad."
+
+  utter_sri_lankan_green_pit_viper_snake_bite_symptoms:
+  - text: "Sri Lankan Green Pit Viper bites are fortunately not usually fatal, but they can cause some unpleasant and potentially serious symptoms. Here's what to expect if you get bitten:\n\nLocal Symptoms (Most Common):\n- Intense pain and swelling around the bite wound\n- Bleeding from the fang punctures\n- Regional lymph node swelling (lymphadenopathy)\n- Blistering around the bite area (may be hemorrhagic, meaning bloody)\n\nSystemic Symptoms (Less Common):\n- Disrupted blood clotting (coagulopathy) - this can be serious and requires immediate medical attention\n- In very rare cases, acute kidney injury"
+
+  utter_sri_lankan_green_pit_viper_snake_bite_treatment:
+  - text: "There aren't any specific medical advice for treating a Sri Lankan Green Pit Viper bite.  However, here's a breakdown of the general steps for what to do if bitten:\n\nImmediately After the Bite:\n- Stay Calm: Panic can worsen the situation.\n- Move away from the Snake: Safely increase the distance between you and the viper.\n\nDo not:\n- Apply a tourniquet.\n- Try to suck out the venom.\n- Apply ice directly to the wound.\n- Drink alcohol or caffeinated beverages.\n\nSeek Medical Attention Immediately:\n- This is the most crucial step. Early intervention can significantly improve outcomes.\n- Explain to medical professionals that you suspect a Sri Lankan Green Pit Viper bite."
+  
+  utter_forstens_cat_information:
+  - text: "The Forsten's cat snake, a resident of South Asia's trees, is a slender hunter with a surprising fondness for climbing. Though mildly venomous, its bite is rarely a serious threat to humans. Reaching lengths of up to 7.5 feet, these snakes are typically brown or gray with a distinctive zigzag pattern, though some individuals lack markings entirely. Lizards, birds, and small mammals make up their diet, making them efficient predators in their arboreal world."
+  
+  utter_forstens_cat_location:
+  - text: "Forsten's cat snakes can be found in several countries within South Asia, including:\n- Nepal\n- Sri Lanka\n- India (across various regions, including Sikkim, West Bengal, Maharashtra, Gujarat, Kerala, Uttar Pradesh to Bihar, Madhya Pradesh, Orissa, Andhra Pradesh, Tamil Nadu, southern Rajasthan, Uttarakhand, and Jharkhand)"
+
+  utter_forstens_cat_appearance:
+  - text: "Forsten's cat snakes are arboreal hunters with a slender build and a distinct appearance. Here's a breakdown of their key features:\n\nSize:\n- Average length: 120-150 cm (around 4-5 feet)\n- Maximum length: 230 cm (around 7.5 feet)\n\nColoration:\n- Variable, ranging from:\n   - Grey\n   - Brown\n- Distinctive black and yellow-white zig-zag markings running along the body (although some brown individuals may be patternless).\n\nHead:\n- Large and triangular in shape.\n- Distinctly broader than the neck.\n- Patternless on top in most cases.\n\nEyes:\n- Large with vertical pupils, a common characteristic of many nocturnal snakes."
+
+  utter_forstens_cat_snake_bite_symptoms:
+  - text: "Here's the important information to remember about Forsten's cat snake bites and symptoms:\n\nBite Severity:\n- Forsten's cat snake is considered mildly venomous. This means bites are rarely serious for humans.\n\nPotential Symptoms:\nLocalized pain: This is the most common symptom and occurs around the bite area.\n- Swelling: The area around the bite might become swollen due to the venom's effects.\n- Bruising: Some individuals might experience bruising near the bite site.\n\nImportant Note:\n- Even though the venom is mild, it's crucial to seek medical attention immediately if bitten by a Forsten's cat snake. A medical professional can assess the situation and provide appropriate treatment."
+
+  utter_forstens_cat_snake_bite_treatment:
+  - text: "If you or someone else has been bitten by a Forsten's cat snake, it's important to stay calm and seek medical attention immediately. Here are the steps you should follow:\n- Move away from the snake to prevent further bites.\n- Keep the bitten person still to reduce the spread of venom.\n- Do not attempt to suck out the venom or make incisions over the bite marks.\n- Remove any jewelry or watches near the bite site as swelling can occur.\n- Clean the wound with soap and water.\n- Apply a bandage over the bite site to protect it.\n- Seek medical help as soon as possible, even if the snake is non-venomous, to get a professional assessment\n\nForsten’s cat snake (Boiga forsteni) is generally considered non-venomous, and bites may result in mild to moderate local effects. However, it's always best to treat any snakebite as a potential medical emergency"
+
+ 
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

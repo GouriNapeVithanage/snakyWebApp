@@ -1,0 +1,18 @@
+[
+  {
+    "text": "sri_lankan green pit viper locations",
+    "intent": "sri_lankan_green_pit_location",
+    "intent_prediction": {
+      "name": "sri_lankan_green_pit_viper_information",
+      "confidence": 0.48685210943222046
+    }
+  },
+  {
+    "text": "where can be sri_lankan green pit viper found",
+    "intent": "sri_lankan_green_pit_location",
+    "intent_prediction": {
+      "name": "sri_lankan_green_pit_viper_information",
+      "confidence": 0.35895034670829773
+    }
+  }
+]

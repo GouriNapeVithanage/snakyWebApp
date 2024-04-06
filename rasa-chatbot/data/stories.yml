@@ -1,0 +1,121 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: ask common rattle snake information
+  steps:
+    - intent: common_rattle_snake_information
+    - action: utter_common_rattle_snake_information
+
+- story: ask common rattle snake location
+  steps:
+    - intent: common_rattle_snake_location
+    - action: utter_common_rattle_snake_location
+
+- story: ask common rattle snake symptoms
+  steps:
+    - intent: common_rattle_snake_bite_symptoms
+    - action: utter_common_rattle_snake_bite_symptoms
+
+- story: ask common rattle snake appearance
+  steps:
+    - intent: common_rattle_snake_appearance
+    - action: utter_common_rattle_snake_appearance
+
+- story: ask common rattle snake bite treatment
+  steps:
+    - intent: common_rattle_snake_bite_treatment
+    - action: utter_common_rattle_snake_bite_treatment
+
+
+- story: ask russels viper snake information
+  steps:
+    - intent: russels_viper_information
+    - action: utter_russels_viper_information
+
+- story: ask russels viper snake appearance
+  steps:
+    - intent: russels_viper_appearance
+    - action: utter_russels_viper_appearance
+
+- story: ask russels viper snake location
+  steps:
+    - intent: russels_viper_location
+    - action: utter_russels_viper_location
+
+- story: ask russels viper snake bite treatments
+  steps:
+    - intent: russels_viper_snake_bite_treatment
+    - action: utter_russels_viper_snake_bite_treatment
+
+- story: ask russels viper snake bite symptoms
+  steps:
+    - intent: russels_viper_snake_bite_symptoms
+    - action: utter_russels_viper_snake_bite_symptoms
+
+
+
+- story: ask green pit viper information
+  steps:
+    - intent: sri_lankan_green_pit_viper_information
+    - action: utter_sri_lankan_green_pit_viper_information
+
+- story: ask green pit viper locations
+  steps:
+    - intent: sri_lankan_green_pit_viper_location
+    - action: utter_sri_lankan_green_pit_viper_location
+
+- story: ask green pit viper appearance
+  steps:
+    - intent: sri_lankan_green_pit_viper_appearance
+    - action: utter_sri_lankan_green_pit_viper_appearance
+
+- story: ask green pit viper bite symptoms
+  steps:
+    - intent: sri_lankan_green_pit_viper_snake_bite_symptoms
+    - action: utter_sri_lankan_green_pit_viper_snake_bite_symptoms
+
+- story: ask green pit viper bite treatment
+  steps:
+    - intent: sri_lankan_green_pit_viper_snake_bite_treatment
+    - action: utter_sri_lankan_green_pit_viper_snake_bite_treatment
+
+
+- story: ask forstens cat snake information
+  steps:
+    - intent: forstens_cat_information
+    - action: utter_forstens_cat_information
+
+- story: ask forstens cat snake location
+  steps:
+    - intent: forstens_cat_location
+    - action: utter_forstens_cat_location
+
+- story: ask forstens cat snake appearance
+  steps:
+    - intent: forstens_cat_appearance
+    - action: utter_forstens_cat_appearance
+
+- story: ask forstens cat snake bite treatments
+  steps:
+    - intent: forstens_cat_snake_bite_treatment
+    - action: utter_forstens_cat_snake_bite_treatment
+
+- story: ask forstens cat snake bite symptoms
+  steps:
+    - intent: forstens_cat_snake_bite_symptoms
+    - action: utter_forstens_cat_snake_bite_symptoms
+
+
+- story: ask forstens cat snake information
+  steps:
+    - intent: forstens_cat_information
+    - action: utter_forstens_cat_information
+    - intent: forstens_cat_snake_bite_symptoms
+    - action: utter_forstens_cat_snake_bite_symptoms
+
